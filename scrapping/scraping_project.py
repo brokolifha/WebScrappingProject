@@ -100,14 +100,14 @@ def scrape_page(url, driver, keyword):
         return None, False
 
 
-base_url = 'https://forum.donanimarsivi.com/forumlar/ekran-karti.43/' 
+base_url = 'https://forum.donanimarsivi.com/forumlar/ekran-karti.43/' #En son veriler donanımarsivi.com üzerinden çekildiği için bir örnek olarak bırakılmıştır.
 page_url = f'{base_url}page-{{}}'
 
 
-page_num = 355  
+page_num = 2  
 all_comments = []
 successful_pages = []
-keyword = "4070" 
+keyword = "3050" 
 
 driver = create_driver()
 
